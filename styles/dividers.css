@@ -1,0 +1,56 @@
+body {
+  margin:0px;
+  
+}
+.colour-block {
+  background:#1b2125;
+  width:100%;
+  padding:5% 5% 5% 5%;
+  color:#1b2125;
+}
+.white-block {
+  background:#8ca0aa;
+  width:100%;
+  padding:5% 5% 5% 5%;
+  color:dimgray;
+}
+h1 {
+  padding-top: 3rem;
+  text-align:center;
+  font-size: 5vh;;
+  font-family:'wire one', serif;
+  font-weight:normal;
+  color:#ecf6f6;
+}
+p {
+  color:#ecf6f6;
+  font-size:3vh;
+  font-family:'Raleway', serif;
+  width: 100%;
+  text-align: center;
+}
+
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom,#8ca0aa 49%, #1b2125 50%),    linear-gradient(-50deg, #8ca0aa 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #1b2125 49%, #8ca0aa 50%);
+}
+

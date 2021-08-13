@@ -1,0 +1,18 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.clientes-back{
+    width:100%; 
+ background: url("https://d500.epimg.net/cincodias/imagenes/2020/06/12/fortunas/1591986516_371907_1591987430_noticia_normal.jpg") 50% 0 no-repeat fixed; 
+ background-size:cover;
+ padding-top: 17rem;
+ padding-bottom: 17rem;
+}
+
+.font{
+    color: #e5cebb;
+    -webkit-text-stroke: 0.7px black;
+    text-align: center;
+    font-weight:900;
+}
